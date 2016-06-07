@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Popup form</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<link href="css/bootstrap-og.css" rel="stylesheet"/>
+
+<link href="css/main.css" rel="stylesheet"  type="text/css"/>
+<link href="css/fonts.css" rel="stylesheet"/>
+<script src="js/myjs.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<body>
+<div id="div_popup">
+  <div class="drop-shadow fade popup">
+<div class="form"> <form action="#" method="post" id="form" name="form">
+   <div class="logo_1"> <img src="images/vnlogo.png" width="77" height="77">
+   </div>
+   <div class="logo_2">
+    <img src="images/lpg_text.png"></div>
+<div class="header">
+   <h3>Found a lower price. We'll beat it!</h3>
+   <p class="text">Simply fill out the fields below and we'll beat that price.</p>
+   
+  <p class="text"><span style="color:#cc0000">Your Email Id:*<br/>
+  <input type="email" name="email" class="textarea"><br/>
+  Product Name:*<br/>
+  <input type="text" name="productname" class="textarea"><br/>
+  Competitor Price:*</span> <br/><input type="text" name="price" class="textarea"><br>
+   Competitor Link: <br/> <input type="text" name="link" class="textarea"><br/>
+   <span style="padding:0px 0px 0px 258px; margin:0px; color:#cc0000">* Required Fields</span></p>
+   <button type="button" class="btn" onClick="submit()">Submit</button>
+   <button type="button" class="btn" onClick="div_hide()">Cancel</button>
+   </div>
+   <div class="terms"><p class="text">Terms and Conditions</p></div>
+  <div class="footer">
+   <p style="font-size:18px; font-weight:bold; padding-left:15px;">Have any questions?<p class="text" style="padding-left:15px; font-size:14px">Give us a call at 888-321-8276<br/>or email us at <a href="emailto:support@vapornation.com"><span style="text-decoration:underline; color:#fff">support@vapornation.com</span></a></p></div>
+   <button type="button" class="close" onclick="div_hide()">×</button>
+   </form>
+</div>
+   </div>
+   </div>
+   <div id="hideform">
+    <h2>Click button to Popup form</h2>
+   <button type="button" class="btn btn-default" onClick="div_show()">Launch Modal</button></div>
+ 
+
+
+</body>
+</html>
